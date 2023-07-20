@@ -1,12 +1,16 @@
 def pow(a, b):
+    if b == 0:
+        return 1
+
     result = 1
+    reciprocal = False
 
     if b < 0:
-        a = 1 / a
-        b = -b
+        reciprocal = True
+        b = abs(b)
 
     for _ in range(b):
         result *= a
 
-    return round(result, 2)
+    return 1 / result if reciprocal else result
 
