@@ -1,2 +1,3 @@
-for i in range(99):
-    print(f"{i} = 0x{i:x}")
+#!/usr/bin/python3
+for number in range(99):
+    print("Decimal: {} - Hexadecimal: {:X}".format(number, number))
