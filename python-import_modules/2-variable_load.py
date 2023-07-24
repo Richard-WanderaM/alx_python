@@ -12,3 +12,4 @@ if __name__ == "__main__":
     variable_name = "a"
     variable_value = load_variable_from_file(variable_file_path, variable_name)
     print(variable_value)
+
