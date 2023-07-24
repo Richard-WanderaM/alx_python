@@ -1,19 +1,16 @@
 # Import the add function from add_0.py
 from add_0 import add
 
-# Assign values to variables a and b
+# 0-add.py
 a = 1
 b = 2
 
-#We Call the add function with a and b and store the result in the variable 'result'
+def add(a, b):
+    return (a + b)
+
 result = add(a, b)
 
-# We Print the result in the required format using string concatenation
-print(str(a) + " + " + str(b) + " = " + str(result))
-
-# Check if the script is being executed directly (not imported)
-if __name__ == "__main__":
-    pass  # This is just a placeholder to ensure the script is not executed when imported
+print(f"{a} + {b} = {result}")
 
 
 
