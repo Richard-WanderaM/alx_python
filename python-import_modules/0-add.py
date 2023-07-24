@@ -10,7 +10,7 @@ if __name__ == "__main__":
 
     result = add(a, b)
 
-    print(f"{a} + {b} = {result}")
+    print("{} + {} = {}".format(a, b, result))
 
 
 
