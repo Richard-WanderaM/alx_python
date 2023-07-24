@@ -5,15 +5,16 @@ from add_0 import add
 a = 1
 b = 2
 
-# Call the add function with a and b and store the result in the variable 'result'
+#We Call the add function with a and b and store the result in the variable 'result'
 result = add(a, b)
 
-# Print the result in the required format using string concatenation
+# We Print the result in the required format using string concatenation
 print(str(a) + " + " + str(b) + " = " + str(result))
 
 # Check if the script is being executed directly (not imported)
 if __name__ == "__main__":
     pass  # This is just a placeholder to ensure the script is not executed when imported
+
 
 
 # Write a program that imports the function def add(a, b): 
