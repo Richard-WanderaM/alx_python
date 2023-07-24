@@ -1,21 +1,16 @@
+# Import the add function from add_0.py
+from add_0 import add
+
+# Assign values to variables a and b
 a = 1
 b = 2
 
-def add(a, b):
-    """My addition function
+# Call the add function with a and b and store the result in the variable 'result'
+result = add(a, b)
 
-    Args:
-        a: first integer
-        b: second integer
+# Print the result in the required format
+print(f"{a} + {b} = {result}")
 
-    Returns:
-        The return value. a + b
-    """
-    return a + b
-
-if __name__ == "__main__":
-    result = add(a, b)
-    print("{} + {} = {}".format(a, b, result))
 
 # Write a program that imports the function def add(a, b): 
 # from the file add_0.py and prints the result of the addition 1 + 2 = 3
