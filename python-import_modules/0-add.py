@@ -2,15 +2,16 @@
 from add_0 import add
 
 # 0-add.py
-a = 1
-b = 2
+from add_0 import add
 
-def add(a, b):
-    return (a + b)
+if __name__ == "__main__":
+    a = 1
+    b = 2
 
-result = add(a, b)
+    result = add(a, b)
 
-print(f"{a} + {b} = {result}")
+    print(f"{a} + {b} = {result}")
+
 
 
 
