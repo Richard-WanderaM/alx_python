@@ -26,6 +26,7 @@ def validate_password(password):
     # If all checks pass, the password is valid
     return True
 
+
 # Write a Python function called validate_password 
 # that takes a password as input and performs the following checks:
 
