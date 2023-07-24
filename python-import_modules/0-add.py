@@ -8,12 +8,13 @@ b = 2
 # Call the add function with a and b and store the result in the variable 'result'
 result = add(a, b)
 
-# Print the result in the required format
-print(f"{a} + {b} = {result}")
+# Print the result in the required format using string concatenation
+print(str(a) + " + " + str(b) + " = " + str(result))
 
 # Check if the script is being executed directly (not imported)
 if __name__ == "__main__":
     pass  # This is just a placeholder to ensure the script is not executed when imported
+
 
 # Write a program that imports the function def add(a, b): 
 # from the file add_0.py and prints the result of the addition 1 + 2 = 3
