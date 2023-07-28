@@ -1,36 +1,36 @@
-##Python - More Data Structures: Set, Dictionary
+# Python - More Data Structures: Set, Dictionary
 
-Data structures
+* Data structures
 
-Lambda, filter, reduce and map
+* Lambda, filter, reduce and map
 
-Learn to Program 12 Lambda Map Filter Reduce Methods.
+* Learn to Program 12 Lambda Map Filter Reduce Methods.
 
-##Goal of this Project is  to learn:
+# Goal of this Project is  to learn:
 
-Why Python programming is awesome
+> Why Python programming is awesome
 
-What are set and how to use them
+> What are set and how to use them
 
-What are the most common methods of set and how to use them
+> What are the most common methods of set and how to use them
 
-When to use sets versus lists
+> When to use sets versus lists
 
-How to iterate into a set
+> How to iterate into a set
 
-What are dictionary and how to use them
+> What are dictionary and how to use them
 
-When to use dictionaries versus lists or sets
+> When to use dictionaries versus lists or sets
 
-What is a key in a dictionary
+> What is a key in a dictionary
 
-How to iterate into a dictionary
+> How to iterate into a dictionary
 
-What is a lambda function
+> What is a lambda function
 
-What is map, reduce and filter functions
+> What is map, reduce and filter functions
 
-##Resource Materials##
+## Resource Materials
 
 [Data Structures](https://intranet.alxswe.com/rltoken/gMupLEVx--wpeBGaXolQzA)
 
