@@ -30,7 +30,7 @@ What is a lambda function
 
 What is map, reduce and filter functions
 
-##Resource Materials
+##Resource Materials##
 
 [Data Structures](https://intranet.alxswe.com/rltoken/gMupLEVx--wpeBGaXolQzA)
 
