@@ -1,4 +1,4 @@
-Python - More Data Structures: Set, Dictionary
+##Python - More Data Structures: Set, Dictionary
 
 Data structures
 
@@ -6,7 +6,7 @@ Lambda, filter, reduce and map
 
 Learn to Program 12 Lambda Map Filter Reduce Methods.
 
-Goal of this Project is  to learn:
+##Goal of this Project is  to learn:
 
 Why Python programming is awesome
 
@@ -30,7 +30,7 @@ What is a lambda function
 
 What is map, reduce and filter functions
 
-Rsource Materials
+##Resource Materials
 
 [Data Structures](https://intranet.alxswe.com/rltoken/gMupLEVx--wpeBGaXolQzA)
 
