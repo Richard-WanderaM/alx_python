@@ -30,3 +30,4 @@ if __name__ == "__main__":
         print(my_square.__size)  # Will raise an AttributeError
     except Exception as e:
         print(e)
+
