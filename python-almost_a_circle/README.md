@@ -1,5 +1,16 @@
 ### Python - Almost a circle Project
 
+In this project, we will review everything about Python: Import
+Exceptions,
+Class,
+Private attribute,
+Getter/Setter,
+Class method,
+Static method,
+Inheritance,
+Unittest, and
+Read/Write file.
+
 # Resources
 
 * [args/kwargs](https://intranet.alxswe.com/rltoken/7zBCbNkZbTlhjBk3ElF51Q)
