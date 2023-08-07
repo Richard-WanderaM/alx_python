@@ -75,8 +75,10 @@ class Rectangle(Base):
 
     def display(self):
         """ Display the rectangle using # characters """
+        for _ in range(self.__y):
+            print()
         for _ in range(self.__height):
-            print("#" * self.__width)
+            print(" " * self.__x + "#" * self.__width)
 
     def __str__(self):
         """ String representation of the object """
@@ -84,10 +86,12 @@ class Rectangle(Base):
 
 if __name__ == "__main__":
     """ Test cases """
-    r1 = Rectangle(4, 6, 2, 1, 12)
-    print(r1)
+    r1 = Rectangle(2, 3, 2, 2)
+    r1.display()
 
-    r2 = Rectangle(5, 5, 1)
-    print(r2)
+    print("---")
+
+    r2 = Rectangle(3, 2, 1, 0)
+    r2.display()
 
 
