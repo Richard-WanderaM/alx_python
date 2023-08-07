@@ -73,15 +73,19 @@ class Rectangle(Base):
         """ Calculate and return the area of the rectangle """
         return self.__width * self.__height
 
+    def display(self):
+        """ Display the rectangle using # characters """
+        for _ in range(self.__height):
+            print("#" * self.__width)
+
 if __name__ == "__main__":
     """ Test cases """
-    r1 = Rectangle(3, 2)
-    print(r1.area())
+    r1 = Rectangle(4, 6)
+    r1.display()
 
-    r2 = Rectangle(2, 10)
-    print(r2.area())
+    print("---")
 
-    r3 = Rectangle(8, 7, 0, 0, 12)
-    print(r3.area())
+    r2 = Rectangle(2, 2)
+    r2.display()
 
 
