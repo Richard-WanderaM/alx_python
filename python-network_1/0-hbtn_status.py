@@ -15,8 +15,9 @@ def fetch_hbtn_status():
     content = response.text
 
     print("Body response:")
-    print(f"\t- type: {content_type}")
+    print(f"\t- type: <{content_type}>")
     print(f"\t- content: {content}")
 
 if __name__ == "__main__":
     fetch_hbtn_status()
+
