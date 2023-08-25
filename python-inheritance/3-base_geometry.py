@@ -1,10 +1,7 @@
-#!/usr/bin/env python3
-""" Module containing BaseGeometry class """
+#!/usr/bin/python3
+"""Defines an empty class BaseGeometry."""
+
 
 class BaseGeometry:
-    """ Empty class for demonstration """
-
-if __name__ == "__main__":
-    bg = BaseGeometry()
-
-    print(dir(bg))
+    """Represent base geometry."""
+    pass
