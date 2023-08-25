@@ -5,6 +5,8 @@ class BaseGeometry:
     """ Empty class for demonstration """
 
 if __name__ == "__main__":
-    # Add any test code here
-    bg_instance = BaseGeometry()
-    print(isinstance(bg_instance, BaseGeometry))  # Should print True
+    bg = BaseGeometry()
+
+    print(bg)
+    print(dir(bg))
+    print(dir(BaseGeometry))
