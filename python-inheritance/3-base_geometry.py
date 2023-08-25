@@ -6,4 +6,5 @@ class BaseGeometry:
 
 if __name__ == "__main__":
     # Add any test code here
-    pass
+    bg_instance = BaseGeometry()
+    print(isinstance(bg_instance, BaseGeometry))  # Should print True
