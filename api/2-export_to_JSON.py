@@ -38,7 +38,7 @@ def export_to_json(employee_id, completed_task_data):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python3 script_name.py <employee_id>")
+        print("Usage: python3 2-export_to_JSON.py <employee_id>")
         sys.exit(1)
 
     employee_id = int(sys.argv[1])
