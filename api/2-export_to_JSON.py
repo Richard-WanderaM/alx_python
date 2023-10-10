@@ -40,6 +40,8 @@ if __name__ == "__main__":
     with open(f"{employee_id}.json", 'w') as json_file:
         json.dump(export_data, json_file)
 
-    print(f"Data exported to {employee_id}.json")
+    # Print correct user ID and its length
+    print(f"Correct USER_ID: {employee_id}, Length: {len(employee_id)}")
+
 
 
