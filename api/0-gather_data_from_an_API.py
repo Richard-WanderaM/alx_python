@@ -23,6 +23,7 @@ if __name__ == "__main__":
     completed_task_count = len(completed_tasks)
 
     # Display TODO list progress
-    print(f"Employee {employee_name} is done with tasks({completed_task_count}/{total_tasks}):")
-    for task in completed_tasks:
-        print(f"\t{task['title']}")
+print(f"Employee {employee_name} is done with tasks({completed_task_count}/{total_tasks}):")
+for task in completed_tasks:
+    print(f"\t{task['title']}")
+
