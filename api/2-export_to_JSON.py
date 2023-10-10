@@ -10,9 +10,9 @@ Example:
     python3 2-export_to_JSON.py 2
 """
 
-import requests
 import json
 from sys import argv
+import requests
 
 if __name__ == "__main__":
     if len(argv) < 2:
@@ -41,4 +41,5 @@ if __name__ == "__main__":
         json.dump(export_data, json_file)
 
     print(f"Data exported to {employee_id}.json")
+
 
