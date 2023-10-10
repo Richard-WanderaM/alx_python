@@ -1,3 +1,15 @@
+"""
+This script retrieves employee TODO list progress and exports it to a JSON file.
+
+Usage: python3 2-export_to_JSON.py <employee_id>
+
+Arguments:
+    employee_id (int): The employee ID to retrieve TODO list progress for.
+
+Example:
+    python3 2-export_to_JSON.py 2
+"""
+
 import requests
 import json
 from sys import argv
@@ -29,3 +41,4 @@ if __name__ == "__main__":
         json.dump(export_data, json_file)
 
     print(f"Data exported to {employee_id}.json")
+
